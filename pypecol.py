@@ -20,8 +20,8 @@ import random
 import requests
 
 root_url = 'https://api.replicastudios.com'
-client_id = 'kishor908853@gmail.com'
-secret = 'kishor908853@'
+client_id = 'your enmail id'
+secret = 'your usre name'
 
 txt = "Mom works. She never picks me up from school, and two miles is too close for a bus pickup, which is fine by me because I like cutting through the woods. Especially on autumn days, when the air is cool, and the flies and mosquitos are gone, and basketball practice hasn’t begun. I like the quiet. I like the wordlessness of the walk. A pretty sugar maple dressed in vivid orange frills beckons me off the path. I stand..."
 audio_format = 'wav'
