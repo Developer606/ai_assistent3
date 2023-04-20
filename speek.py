@@ -1,0 +1,17 @@
+import pyttsx3
+def say(Text):
+   mouths = pyttsx3.init('sapi5')
+   voices = mouths.getProperty('voices')
+   mouths.setProperty('voice',voices[1].id)
+   mouths.setProperty('rate',160)
+   print(f"alisa:{Text}")
+   mouths.say(text= Text)
+   mouths.runAndWait()
+# say("hallo sir  ")
+# print("      ")
+# say(" my name is lesa ")
+# print("      ")
+# say(" and i am your new AI personal assistant")
+# print("      ")
+# say(" what can i do for you.....")
+# print("      ")
