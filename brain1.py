@@ -1,6 +1,6 @@
 import openai
 from speek import say
-openai.api_key = ""
+openai.api_key = "ENTER YOUR OPEN AI API KEY"
 def pro(a):
     prompt = a
     response = openai.Completion.create(
